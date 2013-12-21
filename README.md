@@ -1,4 +1,4 @@
-# inventory-toolbar
+# voxel-inventory-toolbar
 
 Connects player inventory to a toolbar, for voxel.js:
 
@@ -14,7 +14,7 @@ Optionally supports:
 
 * [voxel-plugins](https://github.com/deathcap/voxel-plugins): dynamic enabling/disabling
 
-This module uses the 'toolbar' NPM module. Alternative using inventory-window: [voxel-inventory-hotbar](https://github.com/deathcap/voxel-inventory-toolbar)
+This module uses the 'toolbar' NPM module. Alternative using inventory-window: [voxel-inventory-hotbar](https://github.com/deathcap/voxel-inventory-hotbar)
 
 ## License
 
