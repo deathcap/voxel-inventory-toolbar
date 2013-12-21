@@ -14,6 +14,8 @@ Optionally supports:
 
 * [voxel-plugins](https://github.com/deathcap/voxel-plugins): dynamic enabling/disabling
 
+This module uses the 'toolbar' NPM module. Alternative using inventory-window: [voxel-inventory-hotbar](https://github.com/deathcap/voxel-inventory-toolbar)
+
 ## License
 
 MIT
