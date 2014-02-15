@@ -9,9 +9,9 @@ class InventoryToolbar extends EventEmitter
   constructor: (@game, opts) ->
     opts ?= {}
 
-    @toolbar = opts.toolbar ? throw 'voxel-inventory-toolbar requires "toolbar" option set to toolbar instance'
-    @inventory = opts.inventory ? throw 'voxel-inventory-toolbar requires "inventory" option set to inventory instance'
-    @registry = opts.registry ? throw 'voxel-inventory-toolbar requires "registry" option set to voxel-registry instance'
+    @toolbar = opts.toolbar ? throw new Error('voxel-inventory-toolbar requires "toolbar" option set to toolbar instance')
+    @inventory = opts.inventory ? throw new Error('voxel-inventory-toolbar requires "inventory" option set to inventory instance')
+    @registry = opts.registry ? throw new Error('voxel-inventory-toolbar requires "registry" option set to voxel-registry instance')
 
     @inventorySize = opts.inventorySize ? @inventory.size()
 

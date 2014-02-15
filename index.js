@@ -23,21 +23,21 @@
         if ((_ref = opts.toolbar) != null) {
           return _ref;
         } else {
-          throw 'voxel-inventory-toolbar requires "toolbar" option set to toolbar instance';
+          throw new Error('voxel-inventory-toolbar requires "toolbar" option set to toolbar instance');
         }
       })();
       this.inventory = (function() {
         if ((_ref1 = opts.inventory) != null) {
           return _ref1;
         } else {
-          throw 'voxel-inventory-toolbar requires "inventory" option set to inventory instance';
+          throw new Error('voxel-inventory-toolbar requires "inventory" option set to inventory instance');
         }
       })();
       this.registry = (function() {
         if ((_ref2 = opts.registry) != null) {
           return _ref2;
         } else {
-          throw 'voxel-inventory-toolbar requires "registry" option set to voxel-registry instance';
+          throw new Error('voxel-inventory-toolbar requires "registry" option set to voxel-registry instance');
         }
       })();
       this.inventorySize = (_ref3 = opts.inventorySize) != null ? _ref3 : this.inventory.size();
