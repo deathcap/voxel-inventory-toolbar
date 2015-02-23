@@ -1,5 +1,9 @@
 # voxel-inventory-toolbar
 
+**Note: This module is deprecated in favor of [voxel-inventory-hotbar](https://github.com/deathcap/voxel-inventory-hotbar).**
+
+---
+
 Connects player inventory to a toolbar, for voxel.js:
 
 ![screenshot](http://i.imgur.com/yoU5PXK.png "Screenshot")
